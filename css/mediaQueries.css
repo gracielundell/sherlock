@@ -1,0 +1,87 @@
+@media only screen and (min-width: 600px) {
+  .logobackground {
+    display: inline;
+    float: left;
+  }
+
+  .logotype {
+    position: absolute;
+    top: 116px;
+    left: 60px;;
+  }
+
+  .nav {
+    width: 37%;
+    display: inline;
+    position: absolute;
+  }
+
+  .nav hr:first-child {
+    display: none;
+  }
+
+  .nav li {
+    float: none;
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .nav hr {
+    width: 65%;
+  }
+
+  li:hover {
+    color: red;
+  }
+
+  .nav .secondline {
+    padding: 0 auto;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+
+  .maincontent {
+    background-color: #e8e8e8;
+    position: absolute;
+    padding: 0 0 0 2%;
+    width: 70%;
+  }
+
+  .maincontent h2 {
+    margin: 120px auto 0 auto;
+    font-size: 30px;
+    line-height: 110%;
+  }
+
+  .wrapper {
+    position: relative;
+    float: right;
+    width: 60%;
+  }
+
+  .space img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto -26px auto;
+    padding: 0px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 25px ;
+    position: absolute;
+    bottom: 200px;
+  }
+
+  .footer p {
+  line-height: 70%
+  }
+
+  .footer a {
+    color: maroon;
+    text-decoration: none;
+  }
+}
