@@ -33,6 +33,7 @@ li:hover {
   color: red;
 }
 
+/* NAV BAR */
 .nav {
   width: 90%;
   margin: auto;
@@ -64,11 +65,12 @@ li:hover {
   font-size: 10px;
 }
 
-.logotype {
+/* LOGO */
+.logotext {
   margin-top: 20px;
 }
 
-.logotype img{
+.logotext img{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -79,6 +81,7 @@ li:hover {
   display: none;
 }
 
+/* MAIN CONTENT PARAGRAPH */
 .maincontent h2 {
   font-weight: lighter;
   text-align: center;
@@ -92,7 +95,7 @@ li:hover {
   line-height: 140%;
 }
 
-
+/* IMAGES */
 .profilepics ul {
   padding-left: 0px;
 }
@@ -127,8 +130,8 @@ li:hover {
 }
 
 .profilepics p, h4, h2 {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 .profilepics p {
@@ -140,7 +143,8 @@ li:hover {
   letter-spacing: .5px;
 }
 
-.space img {
+/* FOOTER */
+.footer img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -155,10 +159,18 @@ li:hover {
 }
 
 .footer p {
-line-height: 70%
+line-height: 70%;
+}
+
+.footerText {
+  padding: 20px 0;
 }
 
 .footer a {
   color: maroon;
   text-decoration: none;
+}
+
+.footer a:hover {
+  color: red;
 }
