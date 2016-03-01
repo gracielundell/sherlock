@@ -1,0 +1,9 @@
+@mixin hFonts {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+@mixin bodyPadding {
+  padding: 5px 100px;
+}

@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+header {
+  overflow: auto;
+  background: #075458;
+  text-align: center;
+  color: white; }
+  header h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em; }
+  header h2 {
+    font-style: italic;
+    opacity: 0.5; }
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+  padding: 5px 100px;
+  color: #09433F;
+  font-size: 1.1em; }
+  .summary h3, .preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin: 2px;
+    padding-bottom: -10px; }
+  .summary a, .preamble a, .explanation a, .participation a, .benefits a, .requirements a {
+    color: #A2BB8D;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .summary a:hover, .preamble a:hover, .explanation a:hover, .participation a:hover, .benefits a:hover, .requirements a:hover {
+      text-decoration: underline; }
+
+.participation, .benefits {
+  background: #BED5C7; }
+
+/*# sourceMappingURL=master.css.map */
