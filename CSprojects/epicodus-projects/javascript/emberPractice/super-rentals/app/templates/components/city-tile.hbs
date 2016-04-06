@@ -1,0 +1,8 @@
+
+<h2>Location: {{fullLocation}}</h2>
+
+{{#each sortedRentals as |rental|}}
+  <li>{{rental.owner}} {{rental.cost}}</li>
+{{/each}}
+
+<button {{action 'delete' city}}>Delete</button>

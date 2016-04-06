@@ -1,0 +1,9 @@
+{ "rentals": [],
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
+  }, {
+    "name": "Seattle",
+    "country": "USA"
+  }]
+}
