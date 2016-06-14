@@ -1,6 +1,9 @@
 Located in {{rental.city.name}}, this {{rental.bedrooms}} bedroom {{rental.type}} is
 available by arrangement through {{rental.owner}}.
 <br>
-<p><img src={{rental.image}} alt={{rental.type}}></p>
+<img src={{rental.image}} alt={{rental.type}}>
+
+<h3>Map of {{rental.city.name}}'s {{rental.type}}:</h3>
+{{google-map rental=rental}}
 
 <button {{action 'delete' rental}}>Delete</button>
